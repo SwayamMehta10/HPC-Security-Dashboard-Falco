@@ -26,3 +26,15 @@ $ minikube start
 ```
 
 To know more about interacting with your cluster, deploying applications and managing your cluster, you can refer to the <a href="https://minikube.sigs.k8s.io/docs/start/">official documentation</a>.
+
+**Optional:** You can install <a href="https://k9scli.io/topics/install/">k9s</a> which is a terminal based UI for easy interaction with Kubernetes clusters.
+
+**Important:** Make sure that <a href="https://helm.sh/">helm</a> is installed before proceeding further.
+
+## Prometheus and Grafana
+We'll be using the helm charts provided by *Prometheus Monitoring Community* and *Grafana Labs* to deploy these services into our minikube cluster.
+
+Once the minikube cluster starts, follow these <a href="prerequisites\prometheus-grafana.md">installation steps</a> for Prometheus and Grafana.
+
+## Falco
+Once all the pods are up and running, follow the <a href="prerequisites\falco.md">next steps</a> to deploy Falco in the learning environment.
