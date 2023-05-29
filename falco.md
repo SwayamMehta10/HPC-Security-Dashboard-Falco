@@ -1,4 +1,4 @@
-
+# Falco
 ```
 $ helm repo add falcosecurity https://falcosecurity.github.io/charts
 $ helm repo update
@@ -20,3 +20,9 @@ This spins up falco agents on each node in our cluster. Once the falco pods are 
 ```
 $ kubectl logs [falco-pod-name]
 ```
+
+You can checkout the <a href="https://github.com/falcosecurity/falco">official documentation</a> for more details and features.
+
+**Bonus:** Check out <a href="https://github.com/falcosecurity/falcosidekick">falcosidekick</a> to connect falco to your ecosystem.
+
+Next, we need to install the <a>falco exporter</a> to export Prometheus Metrics for Falco output events.

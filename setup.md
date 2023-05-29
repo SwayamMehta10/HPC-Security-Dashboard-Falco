@@ -37,27 +37,7 @@ We'll be using the helm charts provided by *Prometheus Monitoring Community* and
 Once the minikube cluster starts, follow these <a href="prerequisites\prometheus-grafana.md">installation steps</a> for Prometheus and Grafana.
 
 ## Falco
-Once all the pods are up and running, we can start the falco installation.
+Once all the pods are up and running, we can start the <a href="falco.md">falco installation</a>.
 
-```
-$ helm repo add falcosecurity https://falcosecurity.github.io/charts
-$ helm repo update
-```
-
-We'll be using the **ebpf probe** and enabling **gRPC** over a Unix socket.
-We'll also enable the **json output** to print falco alert messages as json.
-
-```
-$ helm install falco \
---set driver.kind=ebpf \
---set tty=true \
---set json_output=true \
---set falco.grpc.enabled=true \
---set falco.grpc_output.enabled=true
-```
-
-This spins up falco agents on each node in our cluster. Once the falco pods are up and running, we can view the falco logs:
-```
-$ kubectl logs [falco-pod-name]
-```
 ## Falco Exporter
+Once Falco is installed and running with the gRPC output enabled, we can install the <a href="falco-exporter.md">falco-exporter</a>.
