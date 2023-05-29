@@ -39,5 +39,10 @@ Once the minikube cluster starts, follow these <a href="prerequisites\prometheus
 ## Falco
 Once all the pods are up and running, we can start the <a href="falco.md">falco installation</a>.
 
+To access the installed falco files, we need to log into the minikube environment:
+```
+$ minikube ssh
+```
+
 ## Falco Exporter
 Once Falco is installed and running with the gRPC output enabled, we can install the <a href="falco-exporter.md">falco-exporter</a>.

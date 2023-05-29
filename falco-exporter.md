@@ -12,6 +12,8 @@ Make sure all the pods are running:
 $ kubectl get pods
 ```
 
+Prometheus automatically starts capturing falco events once the falco-exporter starts running.
+
 We'll be forwarding the falco-exporter metrics to port 9376. In a new terminal tab:
 ```
 $ kubectl port-forward [falco-exporter-pod-name] 9376:9376 
