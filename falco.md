@@ -17,6 +17,8 @@ $ helm install falco \
 --set falco.grpc_output.enabled=true
 ```
 
+These configurations can be set even at a later stage by modifying the **/etc/falco/falco.yaml** file.
+
 This spins up falco agents on each node in our cluster. Once the falco pods are up and running, we can view the falco logs:
 ```
 $ kubectl logs [falco-pod-name]
@@ -45,3 +47,5 @@ We can tell Falco to check the original rules and our overrides together:
 ```
 
 To learn more about <a href="https://falco.org/docs/rules/">falco rules</a> and <a href="https://falco.org/docs/alerts/">alerts</a>, you can check out Sysdig's official documentation.
+
+Lastly, we ned the <a href="falco-exporter.md">falco-exporter</a> to share the Falco alerts with the Prometheus scraper.
