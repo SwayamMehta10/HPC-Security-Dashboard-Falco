@@ -8,7 +8,8 @@ This repository contains all the necessary files and steps required for setting 
 ## Docker driver
 We'll be using the <a href="prerequisites\docker.md">Docker driver</a> to start a minikube cluster. 
 
-## minikube
+<a id="minikube"></a>
+## Minikube
 This is the easiest way to use Falco on Kubernetes in a local environment.  
 
 To install the latest minikube **stable** release on **x86-64 Linux** using **binary download**:
@@ -46,3 +47,20 @@ $ minikube ssh
 
 ## Falco Exporter
 Once Falco is installed and running with the gRPC output enabled, we can install the <a href="falco-exporter.md">falco-exporter</a>.
+
+## Falco Dashboard
+We can now import the Falco dashboard to Grafana.
+<a id="import_dashboard"></a>A custom dashboard has been created and the JSON file for it has been provided in this repository.
+
+To import the customized dashboard by following these steps:
+1. Download the <a href="falco dashboard.json" download>JSON</a> file for the custom Falco dashboard provided in this repository. 
+2. Click **Dashboards** in the left-side menu.
+3. Click **new** and select **Import** in the dropdown menu.
+4. Upload the Falco dashboard JSON file **OR** Paste the dashboard JSON text directly into the text area.
+
+To learn more about managing your dashboard, you can visit <a href="https://grafana.com/docs/grafana/latest/dashboards/">Grafana Labs</a>.
+
+## Generating Events
+I have provided a few ways to <a href="generate events.md">generate sample events</a> that trigger the Falco agent. The results are reflected on the dashboard in real-time.
+
+You can also check out the <a href="https://falco.org/docs/event-sources/sample-events/">event-generator tool</a> provided in the official Falco docs. 

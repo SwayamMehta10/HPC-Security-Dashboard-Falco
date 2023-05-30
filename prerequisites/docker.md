@@ -30,4 +30,4 @@ For other installation methods or resolving errors you can refer to the <a href=
 
 Alternatively you can also install <a href="https://docs.docker.com/desktop/install/ubuntu/">Docker Desktop</a> on Ubuntu.
 
-Next, we need to install <a href="..\setup.md">minikube</a>.
+Next, we need to install <a href="..\setup.md#minikube">minikube</a>.

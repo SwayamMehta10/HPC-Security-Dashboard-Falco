@@ -28,8 +28,6 @@ You can checkout the <a href="https://github.com/falcosecurity/falco">official d
 
 **Bonus:** Check out <a href="https://github.com/falcosecurity/falcosidekick">falcosidekick</a> to connect falco to your ecosystem.
 
-Next, we need to install the <a href="falco-exporter.md">falco exporter</a> to export Prometheus Metrics for Falco output events.
-
 ## Falco Rules
 SSH into our node and check out the default falco rules in **/etc/falco/falco_rules.yaml**.
 

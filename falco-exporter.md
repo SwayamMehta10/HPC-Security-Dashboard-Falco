@@ -18,4 +18,6 @@ We'll be forwarding the falco-exporter metrics to port 9376. In a new terminal t
 ```
 $ kubectl port-forward [falco-exporter-pod-name] 9376:9376 
 ```
-We can check the metrics endpoint at **localhost:9376/metrics**
+We can check the metrics endpoint at **localhost:9376/metrics**.
+
+Now, we just need to <a href="setup.md#import_dashboard"> import the Falco dashboard</a> to Grafana.
