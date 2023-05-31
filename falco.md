@@ -14,7 +14,8 @@ $ helm install falco \
 --set tty=true \
 --set json_output=true \
 --set falco.grpc.enabled=true \
---set falco.grpc_output.enabled=true
+--set falco.grpc_output.enabled=true \
+falcosecurity/falco
 ```
 
 These configurations can be set even at a later stage by modifying the **/etc/falco/falco.yaml** file.
