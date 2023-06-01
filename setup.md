@@ -50,10 +50,10 @@ Once Falco is installed and running with the gRPC output enabled, we can install
 ## Falco Dashboard
 We can now import the Falco dashboard to Grafana. A custom dashboard has been created and the JSON file for it has been provided in this repository.
 
-To import the customized dashboard by following these steps:
+The customized dashboard can be imported to Grafana by following these steps:
 1. Download the <a href="falco dashboard.json" download>JSON</a> file for the custom Falco dashboard provided in this repository. 
-2. Click **Dashboards** in the left-side menu.
-3. Click **new** and select **Import** in the dropdown menu.
+2. Once logged into Grafana, click on **Dashboards** in the left-side menu.
+3. Click on **new** and select **Import** in the dropdown menu.
 4. Upload the Falco dashboard JSON file **OR** Paste the dashboard JSON text directly into the text area.
 
 To learn more about managing your dashboard, you can visit <a href="https://grafana.com/docs/grafana/latest/dashboards/">Grafana Labs</a>.
