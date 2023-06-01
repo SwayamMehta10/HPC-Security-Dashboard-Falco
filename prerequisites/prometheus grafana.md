@@ -41,6 +41,6 @@ $ kubectl get secret --namespace default grafana -o jsonpath="{.data.admin-passw
 
 ``` 
 
-Next, add the <a href="https://prometheus.io/docs/visualization/grafana/">Prometheus data source</a> to Grafana (use **prometheus-server:80** URL).
+Next, add the <a href="https://prometheus.io/docs/visualization/grafana/#creating-a-prometheus-data-source">Prometheus data source</a> to Grafana (use **prometheus-server:80** URL).
 
 Now that the prerequisites are installed, we can get started with <a href="..\falco.md">Falco</a>.
