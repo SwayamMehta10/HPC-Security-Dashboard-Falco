@@ -50,7 +50,8 @@ Once Falco is installed and running with the gRPC output enabled, we can install
 
 ## Falco Dashboard
 We can now import the Falco dashboard to Grafana.
-<a id="import_dashboard"></a>A custom dashboard has been created and the JSON file for it has been provided in this repository.
+<div  id="import_dashboard">
+A custom dashboard has been created and the JSON file for it has been provided in this repository.
 
 To import the customized dashboard by following these steps:
 1. Download the <a href="falco dashboard.json" download>JSON</a> file for the custom Falco dashboard provided in this repository. 
@@ -59,6 +60,7 @@ To import the customized dashboard by following these steps:
 4. Upload the Falco dashboard JSON file **OR** Paste the dashboard JSON text directly into the text area.
 
 To learn more about managing your dashboard, you can visit <a href="https://grafana.com/docs/grafana/latest/dashboards/">Grafana Labs</a>.
+</div>
 
 ## Generating Events
 I have provided a few ways to <a href="generate events.md">generate sample events</a> that trigger the Falco agent. The results are reflected on the dashboard in real-time.
