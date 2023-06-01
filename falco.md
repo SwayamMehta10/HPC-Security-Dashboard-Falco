@@ -24,8 +24,9 @@ This spins up falco agents on each node in our cluster. Once the falco pods are 
 ```
 $ kubectl logs [falco-pod-name]
 ```
+![VirtualBox_myVM_30_05_2023_12_53_39](https://github.com/SwayamMehta10/HPC-Security-Dashboard-Falco/assets/79704715/6330576d-5fe0-466a-bc8c-cb8446998c5a)
 
-You can checkout the <a href="https://github.com/falcosecurity/falco">official documentation</a> for more details and features.
+You can checkout the <a href="https://github.com/falcosecurity/falco">official documentation</a> for more details and configuration features.
 
 **Bonus:** Check out <a href="https://github.com/falcosecurity/falcosidekick">falcosidekick</a> to connect falco to your ecosystem.
 
