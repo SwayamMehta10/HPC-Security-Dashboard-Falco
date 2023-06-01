@@ -47,4 +47,4 @@ We can tell Falco to check the original rules and our overrides together:
 
 To learn more about <a href="https://falco.org/docs/rules/">falco rules</a> and <a href="https://falco.org/docs/alerts/">alerts</a>, you can check out Sysdig's official documentation.
 
-Lastly, we ned the <a href="falco-exporter.md">falco-exporter</a> to share the Falco alerts with the Prometheus scraper.
+Lastly, we need the <a href="falco-exporter.md">falco-exporter</a> to share the Falco alerts with the Prometheus scraper.
