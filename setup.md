@@ -8,7 +8,6 @@ This repository contains all the necessary files and steps required for setting 
 ## Docker driver
 We'll be using the <a href="prerequisites\docker.md">Docker driver</a> to start a minikube cluster. 
 
-<a id="minikube"></a>
 ## Minikube
 This is the easiest way to use Falco on Kubernetes in a local environment.  
 
