@@ -34,7 +34,7 @@ To know more about interacting with your cluster, deploying applications and man
 ## Prometheus and Grafana
 We'll be using the helm charts provided by *Prometheus Monitoring Community* and *Grafana Labs* to deploy these services into our minikube cluster.
 
-Once the minikube cluster starts, follow these <a href="prerequisites\prometheus-grafana.md">installation steps</a> for Prometheus and Grafana.
+Once the minikube cluster starts, follow these <a href="prerequisites\prometheus grafana.md">installation steps</a> for Prometheus and Grafana.
 
 ## Falco
 Once all the pods are up and running, we can start the <a href="falco.md">falco installation</a>.
