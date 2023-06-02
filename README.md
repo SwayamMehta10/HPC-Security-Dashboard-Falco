@@ -24,7 +24,7 @@ Key features of Falco include:
 Falco is widely used in cloud-native and containerized environments to enhance security monitoring and incident response capabilities. It helps organizations detect and respond to potential threats and policy violations, thus improving the overall security posture of their containerized applications.
 
 # Architecture
-![Falco Architecture](https://github.com/SwayamMehta10/HPC-Security-Dashboard-Falco/assets/79704715/6075558d-8bc1-4716-9b74-f1e4a2796d43)
+![Falco Architecture](https://github.com/SwayamMehta10/HPC-Security-Dashboard-Falco/assets/79704715/fa394d20-b97a-4624-ba8f-e4673ea6f382)
 
 Let's dive into the detailed Falco architecture:
 1. **Falco Components**:
@@ -46,4 +46,5 @@ Prometheus is a monitoring and alerting tool that collects and stores time-serie
 
 # Dashboard
 This is what our Grafana dashboard will look like:
-![VirtualBox_myVM_30_05_2023_13_48_58 (1)](https://github.com/SwayamMehta10/HPC-Security-Dashboard-Falco/assets/79704715/9d41e588-7c7f-4cd3-b4b0-ef08ae3878e8)
+![VirtualBox_myVM_30_05_2023_13_48_58 (1)](https://github.com/SwayamMehta10/HPC-Security-Dashboard-Falco/assets/79704715/a85aabd9-d255-40b2-a87b-009e0db91252)
+
