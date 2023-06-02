@@ -3,7 +3,7 @@ This file contains all the necessary steps required for installing Docker Engine
 
 ## Uninstall old versions
 ```
-$ sudo apt-get remove docker docker-engine docker.io containerd runc
+$ for pkg in docker.io docker-doc docker-compose podman-docker containerd runc; do sudo apt-get remove $pkg; done
 ```
 
 ## Install using the apt repository
